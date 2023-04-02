@@ -92,4 +92,50 @@
   .active, .dot:hover {
     background-color: #fff;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .text {
+      font-size: 18px;
+    }
+  
+    .prev, .next {
+      font-size: 24px;
+      padding: 5px;
+      margin-top: -15px;
+    }
+  
+    .dot-container {
+      bottom: 10px;
+    }
+  
+    .dot {
+      height: 8px;
+      width: 8px;
+      margin: 0 3px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .text {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .prev, .next {
+      font-size: 20px;
+      padding: 3px;
+      margin-top: -10px;
+    }
+  
+    .dot-container {
+      bottom: 5px;
+    }
+  
+    .dot {
+      height: 6px;
+      width: 6px;
+      margin: 0 2px;
+    }
+  }
   
